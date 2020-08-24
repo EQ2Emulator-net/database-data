@@ -11,7 +11,7 @@
 
 LOCK TABLES `starting_zones` WRITE;
 /*!40000 ALTER TABLE `starting_zones` DISABLE KEYS */;
-INSERT INTO `starting_zones` (`id`, `class_id`, `race_id`, `choice`, `zone_id`) VALUES (4,255,255,4,114),(5,255,255,8,184),(8,255,255,64,253),(6,255,255,16,263),(9,255,255,128,278),(7,255,255,32,470),(1,255,255,255,470),(3,255,255,2,559),(2,255,255,1,589);
+INSERT INTO `starting_zones` (`id`, `class_id`, `race_id`, `choice`, `zone_id`) VALUES (5,255,255,8,34),(4,255,255,4,114),(8,255,255,64,253),(6,255,255,16,263),(9,255,255,128,278),(7,255,255,32,470),(1,255,255,255,470),(3,255,255,2,559),(2,255,255,1,589);
 /*!40000 ALTER TABLE `starting_zones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
