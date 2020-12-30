@@ -11,6 +11,7 @@
 
 LOCK TABLES `spawn_instance_data` WRITE;
 /*!40000 ALTER TABLE `spawn_instance_data` DISABLE KEYS */;
+INSERT INTO `spawn_instance_data` (`spawn_id`, `spawn_location_id`, `pickup_item_id`, `pickup_unique_item_id`) VALUES (1490001,133771732,63332,3647802);
 /*!40000 ALTER TABLE `spawn_instance_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
