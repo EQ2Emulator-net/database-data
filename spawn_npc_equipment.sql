@@ -11,6 +11,7 @@
 
 LOCK TABLES `spawn_npc_equipment` WRITE;
 /*!40000 ALTER TABLE `spawn_npc_equipment` DISABLE KEYS */;
+INSERT INTO `spawn_npc_equipment` (`id`, `equipment_list_id`, `item_id`, `description`) VALUES (1,1,1070003,'Crushing1-3'),(2,2,1070004,'slashing1-3'),(3,3,1070005,'piercing1-3'),(4,4,1070006,'crushing4-5'),(5,5,1070007,'piercing4-5'),(6,6,1070008,'slashing4-5');
 /*!40000 ALTER TABLE `spawn_npc_equipment` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
