@@ -11,7 +11,7 @@
 
 LOCK TABLES `variables` WRITE;
 /*!40000 ALTER TABLE `variables` DISABLE KEYS */;
-INSERT INTO `variables` (`variable_name`, `variable_value`, `comment`) VALUES ('default_ruleset_id','1','Default RuleSet used by the World (normally = 1)'),('gambling_current_jackpot','143000','Current Gigglegibber Gambling Game Jackpot'),('gambling_winning_numbers','333103013213','Current Gigglegibber Gambling Game winning numbers'),('gametime','6/8/4003 13:48',NULL),('lastinstanceid','1000','This value increments a identifier for individual instances and is handled by the World Server, do not change manually as it may cause corruption in instances.'),('motd','Dev: Everything is a work in progress. t1-t2 basic evil quests(shattered lands) are nearing completion, give them a test!!',''),('vitalitytimer','1652781588','This is the unix timestamp of the last vitality update.');
+INSERT INTO `variables` (`variable_name`, `variable_value`, `comment`) VALUES ('default_ruleset_id','1','Default RuleSet used by the World (normally = 1)'),('gambling_current_jackpot','143000','Current Gigglegibber Gambling Game Jackpot'),('gambling_winning_numbers','333103013213','Current Gigglegibber Gambling Game winning numbers'),('gametime','6/26/4003 15:11',NULL),('lastinstanceid','1000','This value increments a identifier for individual instances and is handled by the World Server, do not change manually as it may cause corruption in instances.'),('motd','Dev: Everything is a work in progress. t1-t2 basic evil quests(shattered lands) are nearing completion, give them a test!!',''),('vitalitytimer','1652869377','This is the unix timestamp of the last vitality update.');
 /*!40000 ALTER TABLE `variables` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
