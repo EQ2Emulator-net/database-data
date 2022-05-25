@@ -11,7 +11,7 @@
 
 LOCK TABLES `spawn_instance_data` WRITE;
 /*!40000 ALTER TABLE `spawn_instance_data` DISABLE KEYS */;
-INSERT INTO `spawn_instance_data` (`spawn_id`, `spawn_location_id`, `pickup_item_id`, `pickup_unique_item_id`) VALUES (1490001,133771732,63332,3647802);
+INSERT INTO `spawn_instance_data` (`spawn_id`, `spawn_location_id`, `pickup_item_id`, `pickup_unique_item_id`) VALUES (1490001,133771732,63332,3647802),(2230780,133773245,60754,9403622),(2230779,133773246,1060001,12719556),(2230781,133773247,64982,11661687),(2230782,133773248,66378,11510053),(2230783,133773249,61390,12719847),(2230784,133773250,61545,12719852);
 /*!40000 ALTER TABLE `spawn_instance_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
