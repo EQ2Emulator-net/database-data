@@ -1,3 +1,3 @@
-# eq2_data
+# EQ2Emulator Scripts
 
-Data for EQ2Emulator database
+This is the script that bring the world to live.
